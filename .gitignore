@@ -1,20 +1,3 @@
-# Local configuration
-.boost_location
-# Built files
-out
-# Emacs temporaries
-\#*\#
-.\#*
-# Various backups
-*.bak
-*~
-# Test configuration
-.config
-.config.cache
-# Helpers
-update-student-stats.sh
-generate-stats
-.github/cg/linters/format/.useless-old
 # Игнорировать скомпилированные файлы
 *.exe
 *.o
