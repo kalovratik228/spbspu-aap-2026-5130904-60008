@@ -1,11 +1,17 @@
-# Игнорировать скомпилированные файлы
-*.exe
-*.o
-*.out
-
-# Игнорировать настройки VS Code (они у каждого свои)
-.vscode/
-
-# Игнорировать системный мусор Windows
-Thumbs.db
-Desktop.ini
+# Local configuration
+.boost_location
+# Built files
+out
+# Emacs temporaries
+\#*\#
+.\#*
+# Various backups
+*.bak
+*~
+# Test configuration
+.config
+.config.cache
+# Helpers
+update-student-stats.sh
+generate-stats
+.github/cg/linters/format/.useless-old
