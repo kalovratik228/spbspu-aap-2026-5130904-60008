@@ -1,4 +1,4 @@
-#include <cstddef>
+k#include <cstddef>
 #include <cstdio>
 #include <cstdlib>
 #include <cctype>
@@ -22,7 +22,7 @@ int main()
   char *line = static_cast< char * >(std::malloc(cap));
 
   if (line == nullptr) {
-    std::cerr << "Memory allocation error\n";
+    std::cerr << "Memory alocation error\n";
     return koltsov::ERR_CODE;
   }
 
